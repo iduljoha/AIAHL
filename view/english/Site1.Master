@@ -1,0 +1,300 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AIAHL.view.Eng.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AIAHL - Your trusted partner in innovative solutions.">
+    <meta name="keywords" content="AIAHL, innovative solutions, technology, services">
+    <meta name="author" content="AIAHL">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AIAHL - Innovative Solutions">
+    <meta property="og:description" content="Discover the range of innovative solutions offered by AIAHL.">
+    <meta property="og:image" content="http://example.com/image.jpg"> <!-- Update with actual image URL -->
+    <meta property="og:url" content="http://example.com"> <!-- Update with actual URL -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AIAHL">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AIAHL - Innovative Solutions">
+    <meta name="twitter:description" content="Explore innovative solutions with AIAHL.">
+    <meta name="twitter:image" content="http://example.com/image.jpg"> <!-- Update with actual image URL -->
+
+    <!-- Placeholder for page-specific meta tags -->
+    <title>AIAHL :AI ASSETS HOLDING LIMITED </title>
+
+    <!--================================================Bootstrap.main.css======================================-->
+    <link href="../../Assest/libr/CSS/bootstrap.min.css" rel="stylesheet" />
+
+     <!--================================================ google.Font ======================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" >
+   
+    <link href="../../Assest/libr/CSS/owl.carousel.min.css" rel="stylesheet" />
+     <!--================================================Style.site1.css======================================-->
+    <link href="../../Assest/libr/Style/Site1.css" rel="stylesheet" />
+    <!-- FontAwesome for icons -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="fontsize" style="font-size: 14px;">India Flag भारत सरकार | GOVERNMENT OF INDIA</span>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="left">
+                                <div class="swich">
+                                    <input type="checkbox" id="switch" name="switch" value="switch">
+                                    <label for="switch" class="switch"></label>
+
+                                </div>
+                                |
+                                <div class="btn-sec">
+                                    <a href="SiteMap.aspx">
+                                        <i class="fa fa-sitemap"></i>
+
+                                    </a>
+                                </div>
+                                |
+                                <div class="btn-sec">
+                                    <a href="/view/Hin/Index.aspx" class="btn-Dark">हिंदी</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </header>
+
+        </section>
+        <section class=" bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-11 col-lg-11  text-center" style="margin-top: 4px;">
+                        <a class="texts " style="color: #ff0000; font-family: 'Times New Roman', Times, serif; text-decoration: none;">एआई एसेट्स होल्डिंग लिमिटेड</a><br />
+                        <a class="textx" style="color: #000000; font-size: 12px; text-decoration: none;">(पूर्व में एयर इंडिया एसेट्स होल्डिंग लिमिटेड)</a><br />
+
+                        <a class="texts" style="color: #ff0000; font-family: 'Times New Roman', Times, serif; text-decoration: none">AI ASSETS HOLDING LIMITED</a><br />
+                        <a class="textx" style="color: #000000; font-size: 12px; display: block; text-decoration: none">( Formerly AIR INDIA ASSETS HOLDING LIMITED)</a>
+
+                    </div>
+                    <div class="col-sm-4 col-md-1 col-lg-1 " style="margin-top: 5px;">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container">
+                       <a class="navbar-brand" href="index.aspx"><i class="fa fa-home"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="myNavbar">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li id="vision" runat="server"><a class="dropdown-item" href="Overview.aspx">Overview</a> </li>
+                                <li id="overview" runat="server"><a class="dropdown-item" href="Managements.aspx">Management</a></li>
+                                <li id="Li1" runat="server"><a class="dropdown-item" href="Subsidiaries.aspx">Subsidiaries</a></li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Financials</a>
+                                    <ul class="dropdown-submenu">
+                                        <li id="financials" runat="server"><a class="dropdown-item text-dark" href="Financials.aspx">AIAHL</a></li>
+                                        <li runat="server"><a class="dropdown-item text-dark" href="https://www.aiasl.in/financials.aspx" target="_blank">AIASL</a></li>
+                                        <li runat="server"><a class="dropdown-item text-dark" href="https://www.aiesl.in/AnnualReport.aspx" target="_blank">AIESL</a></li>
+                                        <li runat="server"><a class="dropdown-item text-dark" href="https://www.allianceair.in/financials" target="_blank">Alliance Air</a></li>
+                                        <li runat="server"><a class="dropdown-item text-dark" href="https://www.centaurhotels.com/financials" target="_blank">HCI</a></li>
+
+                                    </ul>
+                                </li>
+                                <li id="Li3" runat="server"><a class="dropdown-item" href="IEM.aspx">IEM</a></li>
+
+                            </ul>
+                        </li>
+
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Careers
+                                          <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li id="recruitment" runat="server"><a class="dropdown-item text-dark" href="Careers">AIAHL</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="https://www.aiasl.in/Recruitment.aspx" target="_blank">AIASL</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="https://www.aiesl.in/Careers.aspx" target="_blank">AIESL</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="https://www.allianceair.in/Careers.aspx" target="_blank">Alliance Air</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="https://www.centaurhotels.com/?page_id=76" target="_blank">HCI</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Tenders
+                                          <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li id="Li2" runat="server"><a class="dropdown-item text-dark" href="Tenders.aspx">AIAHL</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" onclick="function" href="https://www.aiasl.in/Tenders.aspx" target="_blank">AIASL</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="https://www.aiesl.in/Tender.aspx" target="_blank">AIESL</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="https://www.allianceair.in/Tender.aspx" target="_blank">Alliance Air</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="https://www.centaurhotels.com/?page_id=908" target="_blank">HCI</a></li>
+
+                            </ul>
+                        </li>
+
+
+
+                        <li id="Vigilance" runat="server"><a class="nav-link  text-dark" href="Vigilance.aspx">Vigilance</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Investors
+                                          <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li runat="server"><a class="dropdown-item text-dark" href="ChairmansStatement.aspx">Chairman’s Statement</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="ComplianceReports.aspx">Compliance Reports</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="FinancialResults.aspx">Financial Results</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="InvestorsRelationContact.aspx">Investors Relation / Contact</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="ImportantNoticesCircular.aspx">Important Notices / Circular</a></li>
+
+                                <li runat="server"><a class="dropdown-item text-dark" href="DetailsofBondsIssued.aspx">Details of Bonds Issued</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="Policies.aspx">Policies</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="AnnualReportsReturns">Annual Reports / Returns</a></li>
+                                <li runat="server"><a class="dropdown-item text-dark" href="CompositionofCommittees.aspx">Composition of Committees</a></li>
+                            </ul>
+                        </li>
+
+
+
+
+
+                        <li id="services" runat="server"><a class="nav-link  text-dark " href="Contactus.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+   <footer>
+    <section>
+      <div class="container p-5">
+
+        <div class="row justify">
+          <div class="col-md-4">
+            <h3>About Us</h3>
+            <p>AI Assets Holding Limited (AIAHL) is a Special Purpose Vehicle (SPV) formed by Government of India incorporated on, 22nd January 2018 and having registered office at Airlines House, New Delhi - 110003.....</p>
+            <p><a href="#">Read More</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Quick Links</h3>
+            <ul class="link-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Products</a> </li>
+              <li><a href="#">B log</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+         <div class="col-md-4">
+            <h3>Social Media</h3>
+            <ul class="social-media">
+              <li><i class="fa fa-facebook"></i></li>
+              <li><i class="fa fa-twitter"></i></li>
+              <li><i class="fa fa-instagram"></i></li>
+              <li><i class="fa fa -google-plus"></i></li>
+
+            </ul>
+            <strong> Last updated date :</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+       <hr />
+    <section class="">
+      <div class="container ">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <span class="text-danger">Copyright © 2024 AI Assets Holding Limited.   All Rights Reserved</span><br />
+                  <span class="text-danger">This site is best viewed at Google Crome, Microsoft Edge and Firefox. Supported Resolution is : 1366 x 768.</span>
+              </div>
+          </div>
+      </div> <!-- end row -->
+    </section>
+
+  </footer>
+
+
+
+
+
+
+
+    
+       <!--================================================Bootstrap.main.js======================================-->
+    <script src="../../Assest/libr/JS/bootstrap.min.js"></script>
+      <!--================================================Bootstrap.popper.main.js======================================-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+       <!--================================================Jquery.js======================================-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="../../Assest/libr/JS/owl.carousel.js"></script>
+
+         <script>
+            $(document).ready(function () {
+                var sWidth = screen.width;
+                if (sWidth < 768) {
+                    var owl = $('.owl-carousel');
+                    owl.owlCarousel({
+                        items: 1,
+                        loop: true,
+                        autoplay: true,
+                        smartSpeed: 1500,
+                        autoplayTimeout: 8000,
+                        animateOut: 'fadeOut',
+                        autoplayHoverPause: false
+                    });
+                }
+                else {
+
+                    var owl = $('.owl-carousel');
+                    owl.owlCarousel({
+                        items: 2,
+                        loop: true,
+                        autoplay: true,
+                        smartSpeed: 1500,
+                        autoplayTimeout: 8000,
+                        animateOut: 'fadeOut',
+                        autoplayHoverPause: false
+                    });
+                }
+
+            })
+        </script>
+</body>
+</html>
